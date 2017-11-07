@@ -1,0 +1,342 @@
+/* READING */
+.lecture {
+  cursor: url(../img/ui/cursor_s.png) 15 15, auto !important;
+}
+
+h1.t-set, .t-set h1 {
+    font-size: 80px;
+    line-height: 1.25
+}
+
+h2.t-set, .t-set h2 {
+    font-size: 50px;
+    line-height: 1.25
+}
+
+h3.t-set, .t-set h3 {
+    font-size: 30px;
+    line-height: 1.25
+}
+
+h4.t-set, .t-set h4 {
+    font-size: 20px;
+    line-height: 1.25
+}
+
+h5.t-set, .t-set h5 {
+    font-size: 15px;
+    line-height: 1.25
+}
+
+h6.t-set, .t-set h6 {
+    font-size: 10px;
+    line-height: 1.25
+}
+
+p.t-set, .t-set p, .t-set li, li.t-set {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-indent: 40px;
+    text-align: justify
+}
+
+.t-h, .t-hyphenate, p.t-set, .t-set p, .t-set li, li.t-set, .sidenotes p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+
+@media screen and (min-width:768px) {
+    p.t-set, .t-set p, .t-set li, li.t-set {
+        font-size: 25px;
+        text-indent: 60px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    p.t-set, .t-set p, .t-set li, li.t-set {
+        font-size: 30px;
+        text-indent: 90px
+    }
+}
+
+@media screen and (min-width:1500px) {
+    p.t-set, .t-set p, .t-set li, li.t-set {
+        font-size: 45px;
+        text-indent: 120px
+    }
+}
+
+@media screen and (min-width:2000px) {
+    p.t-set, .t-set p, .t-set li, li.t-set {
+        font-size: 60px;
+        text-indent: 160px
+    }
+}
+
+p.t-set > a, .t-set p > a, .t-set li > a, li.t-set > a {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .05em;
+    cursor: url(../img/ui/cursor_a.png) 7 7, auto !important;
+    font-size: 110%;
+    letter-spacing: 0;
+    padding-bottom: 3px
+}
+
+p.t-set > a:active, .t-set p > a:active, .t-set li > a:active, p.t-set > a:target,
+.t-set p > a:target, .t-set li > a:target, li.t-set > a:active, li.t-set > a:target {
+    color: inherit;
+    text-decoration: none
+}
+
+p.t-set > a:hover, .t-set p > a:hover, .t-set li > a:hover, li.t-set > a:hover {
+    text-decoration: none
+}
+
+p.t-set > a:visited, .t-set p > a:visited, .t-set li > a:visited, li.t-set > a:visited {
+    border: 0;
+    text-decoration: line-through;
+    color: inherit
+}
+
+small {
+    font-size: 80%
+}
+
+ol.t-set, .t-set ol {
+    list-style: decimal
+}
+
+ul.t-set, .t-set ul {
+    list-style: disc
+}
+
+a.t-set, .t-set a {
+    text-decoration: none
+}
+
+hr {
+    background-color: transparent;
+    border-color: #232323;
+    border-width: 3px
+}
+
+hr.t-set, .t-set hr {
+    margin: 30px 0
+}
+
+.t-set h1 {
+    margin-bottom: 15px
+}
+
+.t-set h2 {
+    margin-bottom: 15px
+}
+
+.t-set h3 {
+    margin-bottom: 15px
+}
+
+.t-set h4 {
+    margin-bottom: 15px
+}
+
+.t-set h5 {
+    margin-bottom: 15px
+}
+
+.t-set h6 {
+    margin-bottom: 15px
+}
+
+.t-set p, .t-set li {
+    line-height: 1.5;
+}
+
+.t-set img {
+    margin: 30px 0;
+    max-width: 100%;
+    width: 100%
+}
+
+.t-set sup {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .05em;
+    margin-left: 6px;
+    font-size: 40%;
+    vertical-align: super
+}
+
+.t-set sup a {
+    text-decoration: none
+}
+
+.t-reading h1 {
+    margin-top: 60px
+}
+
+.t-reading h2 {
+    margin-top: 60px
+}
+
+.t-reading h3 {
+    margin-top: 60px
+}
+
+.t-reading h4 {
+    margin-top: 30px
+}
+
+.t-reading h5 {
+    margin-top: 30px
+}
+
+.t-reading h6 {
+    margin-top: 30px
+}
+
+.t-reading ul.t-set, .t-reading .t-set ul, .t-set .t-reading ul, .t-reading ol.t-set,
+.t-reading .t-set ol, .t-set .t-reading ol {
+    padding-left: 30px
+}
+
+.t-super-size {
+    font-family: "Replica-Regular", "monaco", "andale mono", courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .05em;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-transform: uppercase
+}
+
+.t-super-size a {
+    display: block;
+    font-size: 12px;
+    line-height: 1.25;
+    text-transform: none;
+    text-decoration: none
+}
+
+@media screen and (min-width:1024px) {
+    .t-super-size {
+        font-size: 70px
+    }
+
+    .t-super-size a {
+        font-size: 15px;
+        line-height: 1.5
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .t-super-size {
+        font-size: 80px
+    }
+}
+.sidenote {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media(min-width:1024px) {
+    .sidenote {
+        float: left;
+        width: 16.66667%
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .sidenote {
+        float: right;
+        display:block!important;
+    }
+}
+
+.sidenote-group {
+    float: left;
+    height: 0;
+    overflow: visible;
+    width: 100%
+}
+
+@media screen and (min-width:1024px) {
+    .sidenote, .col-aside--last {
+        padding-left: 30px
+    }
+}
+
+.sidenotes p {
+    font-size: 12px;
+    text-indent: 24px;
+    text-align: left
+}
+
+.sidenote {
+    margin-top: 15px;
+    display:none;
+}
+.footnotes {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footnotes > ol, .sidenote > ol {
+    padding: 0 15px
+}
+
+@media screen and (min-width:1024px) {
+    .footnotes > ol, .sidenote > ol {
+        padding: 0
+    }
+}
+
+.footnotes li, .footnotes p, .sidenote li, .sidenote p {
+    font-family: "Replica-Regular", "monaco", "andale mono", courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: .05em;
+    font-size: 15px;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    text-align: left;
+    text-indent: 0;
+    content: counter(item) "  ";
+    counter-increment: item
+}
+@media screen and (min-width:1024px) {
+    .reversefootnote {
+        display: none
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footnotes li, .footnotes p, .sidenote li, .sidenote p {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width:1024px) {
+  .footnotes {
+    display:none!important;
+  }
+}
+
+.footnotes li a, .footnotes p a, .sidenote li a, .sidenote p a {
+    cursor: url(../img/ui/cursor_a.png) 7 7, auto !important;
+}
